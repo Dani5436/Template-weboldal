@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Jegyek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Jegyek</h1>
+    </header>
+
+    <nav>
+ 
+ <a href="csapat.html">Csapat</a>
+  <a href="tortenelem.html">Történelem</a>
+  <a href="galeria.html">Galéria</a>
+  <a href="jegyek.html">Jegyek</a>
+</nav>
+    <section class="content">
+        <h2>Jegyek a Real Madrid mérkőzéseire</h2>
+        <p>
+            A Real Madrid mérkőzéseire jegyeket vásárolhatnak a hivatalos weboldalon vagy a stadion jegypénztárában.
+            A jegyek ára változó, attól függően, hogy melyik mérkőzésre és milyen helyre szól.
+        </p>
+        <p>
+            A legnépszerűbb mérkőzésekre, mint például a Bajnokok Ligája vagy a El Clásico, gyorsan elfogynak a jegyek,
+            ezért érdemes időben megvásárolni őket.
+        </p>
+    </section>
+
+<div class="ticket-container">
+
+    <div class="ticket-box">
+        <h2>⚽ Standard Jegy</h2>
+        <p>Tökéletes választás a mérkőzés élő követéséhez.</p>
+        <p><strong>Ár:</strong> 79 €</p>
+        <p>✓ Kiváló kilátás</p>
+        <p>✓ Digitális jegy</p>
+        <button onclick="buyTicket('Standard Jegy')">
+            Jegy Vásárlása
+        </button>
+    </div>
+
+    <div class="ticket-box">
+        <h2>⭐ Prémium Jegy</h2>
+        <p>Közelebb a pályához és extra szolgáltatások.</p>
+        <p><strong>Ár:</strong> 149 €</p>
+        <p>✓ Jobb ülőhely</p>
+        <p>✓ Gyors beléptetés</p>
+        <button onclick="buyTicket('Prémium Jegy')">
+            Jegy Vásárlása
+        </button>
+    </div>
+
+    <div class="ticket-box">
+        <h2>👑 VIP Jegy</h2>
+        <p>A legjobb élmény a Santiago Bernabéuban.</p>
+        <p><strong>Ár:</strong> 299 €</p>
+        <p>✓ VIP Lounge</p>
+        <p>✓ Exkluzív ülőhelyek</p>
+        <button onclick="buyTicket('VIP Jegy')">
+            Jegy Vásárlása
+        </button>
+    </div>
+
+</div>
+
+<script>
+function buyTicket(ticketType) {
+    alert("Sikeresen kiválasztottad: " + ticketType + "\nTovább a fizetéshez!");
+}
+</script>
+</div>
+</body>
+</html>

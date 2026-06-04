@@ -4,7 +4,7 @@ Saját weboldal W3.CSS template alapján
 # Template weboldal projekt
 
 Készítette: Gudics Dániel
-Osztály:
+Osztály: 9tc
 
 ## Téma
 
@@ -12,7 +12,7 @@ A weboldalam témája: Real Madrid
 
 ## Template 
 
-Ezt a W3.CSS template-et választottam:
+Ezt a W3.CSS template-et választottam: Nature Portfolio Template
 
 
 ## Mit módosítottam?
@@ -32,4 +32,4 @@ Ezt a W3.CSS template-et választottam:
 
 ## Weboldal linkje
 
-GitHub Pages link:
+GitHub Pages link: https://github.com/Dani5436/Template-weboldal.git

@@ -107,3 +107,45 @@ nav a:hover {
   border-radius: 20px;
   transition: 0.4s;
 }
+
+.ticket-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.ticket-box{
+    width:300px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.ticket-box:hover{
+    transform:scale(1.05);
+}
+
+.ticket-box h2{
+    color:#00529F;
+}
+
+.ticket-box button{
+    margin-top:15px;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#00529F;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.ticket-box button:hover{
+    background:#003d75;
+}
