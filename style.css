@@ -33,7 +33,7 @@ nav a:hover {
   padding: 80px;
   text-align: center;
   background: url("stadion.jpg") center/cover;
-  color: white;
+  color: black;
 }
 
 /* SZÖVEGES OLDALAK */
@@ -79,4 +79,12 @@ nav a:hover {
 /* kinagyítás hoverre */
 .kep:hover {
   transform: scale(1.1);
+}
+
+.src {
+    width: 80%;
+  display: block;
+  margin: 30px auto;
+  border-radius: 15px;
+  transition: 0.4s;
 }
